@@ -43,6 +43,7 @@ export const js = [
       { text: "Intersection", link: "/js/array/Intersection" },
       { text: "Merge", link: "/js/array/Merge" },
       { text: "Union", link: "/js/array/Union" },
+      { text: "MapParseInt", link: "/js/array/map-parseInt" },
     ],
   },
   {
