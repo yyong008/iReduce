@@ -18,7 +18,7 @@ export const js = [
   {
     text: "Object",
     items: [
-      { text: "deep-clone", link: "/js/Object/deep-clone" },
+      { text: "deep-clone", link: "/js/object/deep-clone" },
       { text: "create", link: "/js/object/create" },
       { text: "assign", link: "/js/object/assign" },
       { text: "freeze", link: "/js/object/freeze" },
