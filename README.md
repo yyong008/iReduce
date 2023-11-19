@@ -1,6 +1,6 @@
 # iReduce
 
-[iReduce](https://i-reduce.vercel.app/) is fe developer experience log, your use interview and so on.
+[https://i-reduce.vercel.app/](https://i-reduce.vercel.app/) is fe developer experience log, your use interview and so on.
 
 ## JavaScript
 

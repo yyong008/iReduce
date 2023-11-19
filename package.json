@@ -1,14 +1,20 @@
 {
   "name": "i-reduce",
-  "version": "1.0.0",
-  "description": "",
+  "version": "0.0.1",
+  "description": "A fe developer log",
   "main": "index.js",
   "scripts": {
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
     "docs:preview": "vitepress preview docs"
   },
-  "keywords": [],
+  "keywords": [
+    "fe",
+    "javascript",
+    "typescript",
+    "css",
+    "html"
+  ],
   "author": "",
   "license": "ISC",
   "devDependencies": {
