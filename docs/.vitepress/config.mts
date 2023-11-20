@@ -16,6 +16,7 @@ export default defineConfig({
       { text: "Mini", link: "/mini/index" },
       { text: "Node.js", link: "/node/index" },
       { text: "Tools", link: "/tools/index" },
+      { text: "Browser", link: "/browser/index" },
       { text: "Interview", link: "/interview/index" },
     ],
 
@@ -27,6 +28,7 @@ export default defineConfig({
       "/mini/": [{ text: "setState", link: "/mini/index" }],
       "/node/": [{ text: "setState", link: "/node/index" }],
       "/tools/": [{ text: "setState", link: "/tools/index" }],
+      "/browser/": [{ text: "url", link: "/browser/url" }],
     },
 
     socialLinks: [
