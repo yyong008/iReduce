@@ -10,7 +10,10 @@ export const js = [
   {
     text: "String",
     items: [
-      { text: "formatNumberWithCommas", link: "/js/string/formatNumberWithCommas" },
+      {
+        text: "formatNumberWithCommas",
+        link: "/js/string/formatNumberWithCommas",
+      },
       { text: "snakeToCamel", link: "/js/string/snakeToCamel" },
       { text: "template", link: "/js/string/template" },
       { text: "emoji", link: "/js/string/emoji" },
@@ -110,17 +113,13 @@ export const js = [
       { text: "observer", link: "/js/pattern/observer" },
     ],
   },
-   {
+  {
     text: "promise",
-    items: [
-      { text: "promise", link: "/js/promise/index" },
-    ],
+    items: [{ text: "promise", link: "/js/promise/index" }],
   },
   {
     text: "Scheduler",
-    items: [
-      { text: "Scheduler", link: "/js/Scheduler/index" },
-    ],
+    items: [{ text: "Scheduler", link: "/js/Scheduler/index" }],
   },
   {
     text: "time",
@@ -131,8 +130,6 @@ export const js = [
   },
   {
     text: "url",
-    items: [
-      { text: "getURLParams", link: "/js/url/getURLParams" },
-    ],
+    items: [{ text: "getURLParams", link: "/js/url/getURLParams" }],
   },
 ];

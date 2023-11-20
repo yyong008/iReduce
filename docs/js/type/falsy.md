@@ -19,48 +19,47 @@
 - 加法操作符
 
 ```ts
-console.log(1 + '2'); // 输出什么？'12'
-console.log(1 - '2'); // 输出什么？-1
+console.log(1 + "2"); // 输出什么？'12'
+console.log(1 - "2"); // 输出什么？-1
 ```
 
 ### `+` 假值
 
 ```ts
-console.log(+"") // 0
-console.log(+false) // 0
-console.log(+0) // 0
-console.log(+null) // 0
-console.log(+undefined) // NaN
-console.log(+NaN) // NaN
+console.log(+""); // 0
+console.log(+false); // 0
+console.log(+0); // 0
+console.log(+null); // 0
+console.log(+undefined); // NaN
+console.log(+NaN); // NaN
 ```
 
 ```ts
-console.log(+"0") // 0
+console.log(+"0"); // 0
 ```
 
 ### `+` 对象类型
 
 ```ts
-console.log(+{}) // NaN: {} -> [object String] -> NaN
-console.log(+[]) // 0: [] -> [object Object] -> '' -> 0
-console.log({}+{}) // [object Object][object Object]
-console.log([]+[]) // string length = 0
-console.log({}+[]) // [object Object]
-console.log([]+{}) // [object Object]
+console.log(+{}); // NaN: {} -> [object String] -> NaN
+console.log(+[]); // 0: [] -> [object Object] -> '' -> 0
+console.log({} + {}); // [object Object][object Object]
+console.log([] + []); // string length = 0
+console.log({} + []); // [object Object]
+console.log([] + {}); // [object Object]
 ```
-
 
 ## `==` 类型转换
 
 ```ts
-console.log(1 == '1'); // 输出什么？为什么？ true, 因为 第二个 '1' 将会发生隐式类型转换为 1
-console.log(1 === '1'); // 输出什么？为什么？ 严格相等不发生类型转换
+console.log(1 == "1"); // 输出什么？为什么？ true, 因为 第二个 '1' 将会发生隐式类型转换为 1
+console.log(1 === "1"); // 输出什么？为什么？ 严格相等不发生类型转换
 ```
 
 ## Boolean 包装值类型转换
 
 ```ts
-console.log(Boolean('')); // 输出什么？包装假值
+console.log(Boolean("")); // 输出什么？包装假值
 console.log(Boolean(0)); // 输出什么？ 包装假值
 console.log(Boolean([])); // 输出什么？ 包装非假值
 ```

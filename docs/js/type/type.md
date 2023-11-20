@@ -12,17 +12,17 @@ typeof 42; // 返回 "number"
 typeof "Hello"; // 返回 "string"
 typeof true; // 返回 "boolean"
 typeof undefined; // 返回 "undefined"
-typeof NaN // 返回 "number"
-typeof BigInt('234') // 返回 "bigint"
+typeof NaN; // 返回 "number"
+typeof BigInt("234"); // 返回 "bigint"
 
 // 检查对象和函数
-typeof null // 返回 "object"
+typeof null; // 返回 "object"
 typeof {}; // 返回 "object"
 typeof []; // 返回 "object" （数组被视为特殊类型的对象）
 typeof Symbol(); // 返回 "symbol"
 typeof function () {}; // 返回 "function"
-const a = new Uint8Array()
-typeof a // 返回 "object"
+const a = new Uint8Array();
+typeof a; // 返回 "object"
 ```
 
 ## 类与实例

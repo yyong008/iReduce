@@ -47,7 +47,7 @@ function deepCopy(obj) {
 
 ```ts
 // 在一个 Web Worker 中使用 structuredClone 复制对象
-const obj = { a: 1, b: 'hello', c: [1, 2, 3] };
+const obj = { a: 1, b: "hello", c: [1, 2, 3] };
 
 const clonedObj = structuredClone(obj);
 ```
@@ -57,4 +57,3 @@ const clonedObj = structuredClone(obj);
 - 原型：无法拷贝对象的原型链。
 - 函数：无法拷贝函数。
 - 不可克隆：并没有支持所有类型的拷贝，比如 Error。
-
