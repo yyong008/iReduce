@@ -13,6 +13,7 @@ export const js = [
       { text: "formatNumberWithCommas", link: "/js/string/formatNumberWithCommas" },
       { text: "snakeToCamel", link: "/js/string/snakeToCamel" },
       { text: "template", link: "/js/string/template" },
+      { text: "emoji", link: "/js/string/emoji" },
     ],
   },
   {
