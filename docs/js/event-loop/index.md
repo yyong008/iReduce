@@ -16,6 +16,6 @@ JavaScript 是单线程的语言，但它能够处理异步操作，比如网络
 | 任务类型   | 描述                                 | 示例                                              |
 | ---------- | ------------------------------------ | ------------------------------------------------- |
 | 同步任务   | 在主线程上顺序执行的任务             | 函数调用、变量赋值、循环等                        |
-| 微任务     | 在当前宏任务执行结束后立即执行的任务 | Promise.then` 方法 queueMicro MutationObserver 等 |
-| 宏任务     | 在当前事件循环结束后执行的任务       | `setTimeout`、`setInterval`、I/O 操作等           |
+| 微任务     | 在当前宏任务执行结束后立即执行的任务 | Promise.then` 方法 queueMicro MutationObserver、process.nextTick等 |
+| 宏任务     | 在当前事件循环结束后执行的任务       | `setTimeout`、`setInterval`、`I/O` 以及 `setImmediate(浏览器中包含)`等           |
 | I/O 操作等 | 由事件触发，在特定事件发生时执行     | 用户点击事件、网络请求完成等                      |
